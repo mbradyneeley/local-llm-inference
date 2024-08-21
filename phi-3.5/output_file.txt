@@ -1,0 +1,16 @@
+Question: A patient showed these phenotypes: Microcephaly,Delayed speech and language development,Abnormality of toe,Prominent nasal bridge,2-3 toe syndactyly,Overlapping toe,Abnormality of skin pigmentation,Pectus excavatum. The patient's causative variant was in the gene: RTTN. What are the assocations?
+Response:  The patient's phenotypes and the causative variant in the RTTN gene suggest a diagnosis of Microcephaly-Congenital Contractural Arachnodactyly (MCCA) syndrome. MCCA syndrome is a rare autosomal recessive disorder characterized by microcephaly, congenital contractures, arachnodactyly, and facial dysmorphism.
+
+Here are the associations between the patient's phenotypes and the RTTN gene:
+
+1. Microcephaly: This is a common feature of MCCA syndrome and is associated with mutations in the RTTN gene.
+2. Delayed speech and language development: This is a common feature of MCCA syndrome and is associated with mutations in the RTTN gene.
+3. Abnormality of toe: This is a common feature of MCCA syndrome and is associated with mutations in the RTTN gene.
+4. Prominent nasal bridge: This is a common feature of MCCA syndrome and is associated with mutations in the RTTN gene.
+5. 2-3 toe syndactyly: This is a common feature of MCCA syndrome and is associated with mutations in the RTTN gene.
+6. Overlapping toe: This is a common feature of MCCA syndrome and is associated with mutations in the RTTN gene.
+7. Abnormality of skin pigmentation: This is not a common feature of MCCA syndrome, but it may be associated with mutations in the RTTN gene.
+8. Pectus excavatum: This is a common feature of MCCA syndrome and is associated with mutations in the RTTN gene.
+
+In conclusion, the patient's phenotypes are consistent with a diagnosis of MCCA syndrome, and the causative variant in the RTTN gene is likely responsible for the observed phenotypes. Further genetic testing and clinical evaluation may be necessary to confirm the diagnosis and rule out other potential causes of the patient's symptoms.
+

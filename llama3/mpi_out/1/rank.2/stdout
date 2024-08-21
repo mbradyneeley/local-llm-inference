@@ -1,0 +1,7 @@
+Model vocab size before resizing: 128256
+Model vocab size after resizing: 128256
+input text is: <|begin_of_text|>{{ What is your favorite color? }}
+about to generate
+generation complete
+done
+{{ What is your favorite color? }} {{ What is your favorite

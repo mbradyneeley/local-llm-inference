@@ -1,0 +1,17 @@
+I believe the run_llama3 script is ready to go. Ran out of time yesterday, try again in AM.
+
+Run with accelerate launch run_llama3.py --num_processes=<num_gpus>
+
+run_llama3.py took abot an hour to generate 400 tokens on Quanah Parker.
+models stored: /home/matthewn/.cache/huggingface/hub
+
+# TODO: Currently using accelerate. Not working perfectly. Try this tuesday: https://www.deepspeed.ai/tutorials/inference-tutorial/
+Otherwise try it 8bit quantized https://arxiv.org/pdf/2404.14047 hardly affects performance it appears
+
+# TODO: If all else fails, here is a llama-recipe guide. Can refactor and try this way. https://github.com/meta-llama/llama-recipes/blob/main/recipes/quickstart/inference/local_inference/inference.py
+
+--- Sasi has a working toy_llama.py script he has shared with me. Can we run 70B with it? Try this. B/c we stil dont know whats going on behind accel.
+- Sasi also going to look into deepspeed and accelerate.
+- Is this applicable? https://github.com/LambdaLabsML/llama/tree/58e862efcee7ce0111d3a572ffd112485aadca96 Sasi believes this
+  could be promising. LambdaLabs
+- We are replicating, not distributing

@@ -1,0 +1,49 @@
+[2024-07-03 14:04:34,530] [WARNING] [real_accelerator.py:162:get_accelerator] Setting accelerator to CPU. If you have GPU or other accelerator, we were unable to detect it.
+[2024-07-03 14:04:34,550] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cpu (auto detect)
+Warning: The default cache directory for DeepSpeed Triton autotune, /home/matthewn/.triton/autotune, appears to be on an NFS system. While this is generally acceptable, if you experience slowdowns or hanging when DeepSpeed exits, it is recommended to set the TRITON_CACHE_DIR environment variable to a non-NFS path.
+[2024-07-03 14:04:38,539] [WARNING] [runner.py:202:fetch_hostfile] Unable to find hostfile, will proceed with training with local resources only.
+[2024-07-03 14:04:38,541] [INFO] [runner.py:568:main] cmd = /home/matthewn/.conda/envs/kuda/bin/python -u -m deepspeed.launcher.launch --world_info=eyJsb2NhbGhvc3QiOiBbMCwgMSwgMiwgMywgNCwgNSwgNl19 --master_addr=127.0.0.1 --master_port=29500 --enable_each_rank_log=None /home/matthewn/projects/GPT_Diagnosis/llama3/deepspeed/run_llama3_deepspeed.py
+[2024-07-03 14:04:40,079] [WARNING] [real_accelerator.py:162:get_accelerator] Setting accelerator to CPU. If you have GPU or other accelerator, we were unable to detect it.
+[2024-07-03 14:04:40,096] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cpu (auto detect)
+Warning: The default cache directory for DeepSpeed Triton autotune, /home/matthewn/.triton/autotune, appears to be on an NFS system. While this is generally acceptable, if you experience slowdowns or hanging when DeepSpeed exits, it is recommended to set the TRITON_CACHE_DIR environment variable to a non-NFS path.
+[2024-07-03 14:04:41,604] [INFO] [launch.py:146:main] WORLD INFO DICT: {'localhost': [0, 1, 2, 3, 4, 5, 6]}
+[2024-07-03 14:04:41,604] [INFO] [launch.py:152:main] nnodes=1, num_local_procs=7, node_rank=0
+[2024-07-03 14:04:41,604] [INFO] [launch.py:163:main] global_rank_mapping=defaultdict(<class 'list'>, {'localhost': [0, 1, 2, 3, 4, 5, 6]})
+[2024-07-03 14:04:41,604] [INFO] [launch.py:164:main] dist_world_size=7
+[2024-07-03 14:04:41,604] [INFO] [launch.py:168:main] Setting CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6
+[2024-07-03 14:04:41,605] [INFO] [launch.py:256:main] process 197518 spawned with command: ['/home/matthewn/.conda/envs/kuda/bin/python', '-u', '/home/matthewn/projects/GPT_Diagnosis/llama3/deepspeed/run_llama3_deepspeed.py', '--local_rank=0']
+[2024-07-03 14:04:41,605] [INFO] [launch.py:256:main] process 197519 spawned with command: ['/home/matthewn/.conda/envs/kuda/bin/python', '-u', '/home/matthewn/projects/GPT_Diagnosis/llama3/deepspeed/run_llama3_deepspeed.py', '--local_rank=1']
+[2024-07-03 14:04:41,606] [INFO] [launch.py:256:main] process 197520 spawned with command: ['/home/matthewn/.conda/envs/kuda/bin/python', '-u', '/home/matthewn/projects/GPT_Diagnosis/llama3/deepspeed/run_llama3_deepspeed.py', '--local_rank=2']
+[2024-07-03 14:04:41,607] [INFO] [launch.py:256:main] process 197521 spawned with command: ['/home/matthewn/.conda/envs/kuda/bin/python', '-u', '/home/matthewn/projects/GPT_Diagnosis/llama3/deepspeed/run_llama3_deepspeed.py', '--local_rank=3']
+[2024-07-03 14:04:41,607] [INFO] [launch.py:256:main] process 197522 spawned with command: ['/home/matthewn/.conda/envs/kuda/bin/python', '-u', '/home/matthewn/projects/GPT_Diagnosis/llama3/deepspeed/run_llama3_deepspeed.py', '--local_rank=4']
+[2024-07-03 14:04:41,608] [INFO] [launch.py:256:main] process 197523 spawned with command: ['/home/matthewn/.conda/envs/kuda/bin/python', '-u', '/home/matthewn/projects/GPT_Diagnosis/llama3/deepspeed/run_llama3_deepspeed.py', '--local_rank=5']
+[2024-07-03 14:04:41,608] [INFO] [launch.py:256:main] process 197524 spawned with command: ['/home/matthewn/.conda/envs/kuda/bin/python', '-u', '/home/matthewn/projects/GPT_Diagnosis/llama3/deepspeed/run_llama3_deepspeed.py', '--local_rank=6']
+[2024-07-03 14:04:44,409] [WARNING] [real_accelerator.py:162:get_accelerator] Setting accelerator to CPU. If you have GPU or other accelerator, we were unable to detect it.
+[2024-07-03 14:04:44,412] [WARNING] [real_accelerator.py:162:get_accelerator] Setting accelerator to CPU. If you have GPU or other accelerator, we were unable to detect it.
+[2024-07-03 14:04:44,418] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cpu (auto detect)
+[2024-07-03 14:04:44,420] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cpu (auto detect)
+[2024-07-03 14:04:44,425] [WARNING] [real_accelerator.py:162:get_accelerator] Setting accelerator to CPU. If you have GPU or other accelerator, we were unable to detect it.
+[2024-07-03 14:04:44,433] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cpu (auto detect)
+[2024-07-03 14:04:44,437] [WARNING] [real_accelerator.py:162:get_accelerator] Setting accelerator to CPU. If you have GPU or other accelerator, we were unable to detect it.
+[2024-07-03 14:04:44,438] [WARNING] [real_accelerator.py:162:get_accelerator] Setting accelerator to CPU. If you have GPU or other accelerator, we were unable to detect it.
+[2024-07-03 14:04:44,439] [WARNING] [real_accelerator.py:162:get_accelerator] Setting accelerator to CPU. If you have GPU or other accelerator, we were unable to detect it.
+[2024-07-03 14:04:44,445] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cpu (auto detect)
+[2024-07-03 14:04:44,446] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cpu (auto detect)
+[2024-07-03 14:04:44,446] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cpu (auto detect)
+[2024-07-03 14:04:44,471] [WARNING] [real_accelerator.py:162:get_accelerator] Setting accelerator to CPU. If you have GPU or other accelerator, we were unable to detect it.
+Warning: The default cache directory for DeepSpeed Triton autotune, /home/matthewn/.triton/autotune, appears to be on an NFS system. While this is generally acceptable, if you experience slowdowns or hanging when DeepSpeed exits, it is recommended to set the TRITON_CACHE_DIR environment variable to a non-NFS path.
+Warning: The default cache directory for DeepSpeed Triton autotune, /home/matthewn/.triton/autotune, appears to be on an NFS system. While this is generally acceptable, if you experience slowdowns or hanging when DeepSpeed exits, it is recommended to set the TRITON_CACHE_DIR environment variable to a non-NFS path.
+[2024-07-03 14:04:44,480] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cpu (auto detect)
+Warning: The default cache directory for DeepSpeed Triton autotune, /home/matthewn/.triton/autotune, appears to be on an NFS system. While this is generally acceptable, if you experience slowdowns or hanging when DeepSpeed exits, it is recommended to set the TRITON_CACHE_DIR environment variable to a non-NFS path.
+Warning: The default cache directory for DeepSpeed Triton autotune, /home/matthewn/.triton/autotune, appears to be on an NFS system. While this is generally acceptable, if you experience slowdowns or hanging when DeepSpeed exits, it is recommended to set the TRITON_CACHE_DIR environment variable to a non-NFS path.
+Warning: The default cache directory for DeepSpeed Triton autotune, /home/matthewn/.triton/autotune, appears to be on an NFS system. While this is generally acceptable, if you experience slowdowns or hanging when DeepSpeed exits, it is recommended to set the TRITON_CACHE_DIR environment variable to a non-NFS path.
+Warning: The default cache directory for DeepSpeed Triton autotune, /home/matthewn/.triton/autotune, appears to be on an NFS system. While this is generally acceptable, if you experience slowdowns or hanging when DeepSpeed exits, it is recommended to set the TRITON_CACHE_DIR environment variable to a non-NFS path.
+Warning: The default cache directory for DeepSpeed Triton autotune, /home/matthewn/.triton/autotune, appears to be on an NFS system. While this is generally acceptable, if you experience slowdowns or hanging when DeepSpeed exits, it is recommended to set the TRITON_CACHE_DIR environment variable to a non-NFS path.
+[2024-07-03 14:06:23,567] [INFO] [launch.py:319:sigkill_handler] Killing subprocess 197518
+[2024-07-03 14:06:26,180] [INFO] [launch.py:319:sigkill_handler] Killing subprocess 197519
+[2024-07-03 14:06:29,032] [INFO] [launch.py:319:sigkill_handler] Killing subprocess 197520
+[2024-07-03 14:06:32,213] [INFO] [launch.py:319:sigkill_handler] Killing subprocess 197521
+[2024-07-03 14:06:35,675] [INFO] [launch.py:319:sigkill_handler] Killing subprocess 197522
+[2024-07-03 14:06:35,676] [INFO] [launch.py:319:sigkill_handler] Killing subprocess 197523
+[2024-07-03 14:06:39,448] [INFO] [launch.py:319:sigkill_handler] Killing subprocess 197524
+[2024-07-03 14:06:43,818] [ERROR] [launch.py:325:sigkill_handler] ['/home/matthewn/.conda/envs/kuda/bin/python', '-u', '/home/matthewn/projects/GPT_Diagnosis/llama3/deepspeed/run_llama3_deepspeed.py', '--local_rank=6'] exits with return code = -9
